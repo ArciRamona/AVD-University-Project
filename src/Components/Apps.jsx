@@ -5,7 +5,7 @@ import Login from "./LogIn";
 var userIsRegistered = true;
 var isLoggedIn = false;
 
-const currentTime = new Date(2024, 0o6, 12, 9).getHours();
+const currentTime = new Date(2024, 0o6, 12, 19).getHours();
 console.log(currentTime);
 
 // function renderConditionally() {
