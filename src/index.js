@@ -1,13 +1,25 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+// import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+// import Header from "./components/Header";
+// import Note from "./components/Note";
+// import Footer from "./components/Footer";
+import "./App.css";
+import Apps from "./components/Apps";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+//props
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <Header />
+    <Note />
+    <Footer /> */}
+    <Apps />
+
+    <input id="fName" />
   </React.StrictMode>
 );
 
